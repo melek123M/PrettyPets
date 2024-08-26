@@ -9,6 +9,14 @@ a {
   color: black;
 }
 
+.btn {
+  padding: 15px 40px;
+  background: blue;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+
 /* navbar */
 .nav-bar-logo {
   margin-top: 10px;
@@ -46,4 +54,42 @@ a {
 
 .nav-bar-item a {
   font-weight: 700;
+}
+
+/* section findPet */
+.container {
+  margin: 2.8125rem;
+}
+
+.findPet {
+  display: flex;
+}
+
+.FindPet-text {
+  padding: 60px 0px;
+  flex: 20;
+}
+
+.FindPet-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.FindPet-text p {
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.FindPet-text .btn {
+  margin: 20px 0px;
+}
+
+.findPet-image {
+  flex: 80;
+}
+
+.findPet-image img {
+  height: 300px;
+  width: 75%;
+  float: right;
 }
