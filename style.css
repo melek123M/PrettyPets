@@ -9,6 +9,10 @@ a {
   color: black;
 }
 
+ul {
+  list-style: none;
+}
+
 .btn {
   padding: 15px 40px;
   background: blue;
@@ -150,7 +154,7 @@ a {
 
 .match-list-items {
   margin-top: 40px;
-  list-style: none;
+  margin-bottom: 600px;
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -159,4 +163,37 @@ a {
 
 .match-text-item {
   background-color: #FFFFFF;
+}
+
+
+
+/* how It Work */
+
+.howWork {
+  /* height: 100vh; */
+  text-align: center;
+  padding: 40px;
+}
+
+.howWork-titel {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.works-items {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.work-item-text {
+  margin: 30px 20px;
+}
+
+.work-item-text p {
+  padding: 12px;
+  size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 21px;
+  color: #6A6C79;
 }
