@@ -19,6 +19,7 @@ ul {
   border-radius: 25px;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 /* navbar */
@@ -240,5 +241,29 @@ ul {
 }
 
 .storie-item-text a {
+  color: #2329DB;
+}
+
+/* section change Life Pet */
+
+.changeLifePet {
+  background-color: #3040C4;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.changeLifePet-text {
+  font: Avenir Next;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.changeLifePet-button .btn {
+  font-size: 18px;
+}
+
+.changeLifePet-button .btn:hover {
+  background-color: white;
   color: #2329DB;
 }
