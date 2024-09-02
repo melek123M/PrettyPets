@@ -267,3 +267,24 @@ ul {
   background-color: white;
   color: #2329DB;
 }
+
+/* footer */
+
+.section-footer {
+  display: flex;
+  gap: 28rem;
+}
+
+.footer-credentiel {
+  line-height: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 2.5rem;
+  line-height: 25px;
+}
+
+.footer-menu ul li:first-of-type {
+  font-weight: bold;
+}
