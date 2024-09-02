@@ -197,3 +197,48 @@ ul {
   line-height: 21px;
   color: #6A6C79;
 }
+
+/* stories section */
+
+.stories {
+  background-color: #F6F6F9;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stories-text {
+  max-width: 450px;
+  text-align: center;
+}
+
+.stories-text-title {
+  font: Avenir Next;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.stories-text-p {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.stories-items {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.storie-item-text {
+  line-height: 25px;
+}
+
+.storie-item-text p {
+  font: Avenir Next;
+  font-size: 22px;
+}
+
+.storie-item-text a {
+  color: #2329DB;
+}
