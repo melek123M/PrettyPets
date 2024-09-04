@@ -1,0 +1,76 @@
+/* section findPet */
+
+.FindPet-text {
+  padding: 60px 60px 60px 0px;
+  flex: 50;
+}
+
+.FindPet-text h1 {
+  font-size: 1.8rem;
+}
+
+.findPet-image {
+  flex: 50;
+}
+
+.findPet-image img {
+  height: 200px;
+  width: 80%;
+}
+
+
+/* section  Match */
+.match .match-content {
+  height: 340px;
+  width: 640px;
+  padding-top: 30px;
+}
+
+.match-list-items {
+  flex-wrap: wrap;
+}
+
+/* how It Work */
+
+.howWork {
+  padding: 40px 150px;
+}
+
+.works-items {
+  flex-direction: column;
+}
+
+/* stories section */
+.stories {
+  padding: 4rem 4rem 4rem 6rem;
+}
+
+.stories-items {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.storie-item img {
+  width: 280px;
+}
+
+/* footer */
+
+.section-footer {
+  height: 360px;
+  gap: 15rem;
+}
+
+.footer-credentiel {
+  line-height: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 2.5rem;
+  line-height: 25px;
+}
+
+.footer-menu ul li:first-of-type {
+  font-weight: bold;
+}
