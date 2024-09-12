@@ -1,0 +1,74 @@
+.nav-bar {
+  display: none;
+}
+
+/* section findPet */
+
+.container {
+  margin: 0rem;
+}
+
+.findPet {
+  flex-direction: column;
+}
+
+.findPet-image img {
+  width: 100%;
+  float: left;
+}
+
+.FindPet-text {
+  padding: 60px 20px 20px 20px;
+}
+
+
+/* section  Match */
+.match {
+  height: 100%;
+}
+
+.match .match-content {
+  padding-top: 50px;
+  width: 100%;
+  max-width: 500px;
+
+}
+
+.match .match-content form input {
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+}
+
+.match .match-content form button {
+  margin-left: -120px;
+}
+
+/* how It Work */
+
+.howWork {
+  padding: 0px;
+  margin-top: 1250px;
+}
+
+/* section change Life Pet */
+
+.changeLifePet {
+  padding: 30px 25px;
+}
+
+.changeLifePet-text {
+  font-size: 25px;
+}
+
+/* footer */
+
+.section-footer {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 20px;
+  overflow: auto;
+}
